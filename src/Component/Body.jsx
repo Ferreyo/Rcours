@@ -1,6 +1,6 @@
 function Body(props) {
     return (
-        <div className="Body">
+        <div className="body">
             <p>Component Menu {props.name}</p>
         </div>
     )

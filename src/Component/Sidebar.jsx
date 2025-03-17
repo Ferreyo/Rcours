@@ -1,6 +1,6 @@
 function Sidebar(props) {
     return (
-        <div className="Sidebar">
+        <div className="sidebar">
             <p>Component Menu {props.name}</p>
         </div>
     )

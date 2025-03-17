@@ -1,6 +1,6 @@
 function Account(props) {
     return (
-        <div className="Account">
+        <div className="account">
             <p>Component Menu {props.name}</p>
         </div>
     )

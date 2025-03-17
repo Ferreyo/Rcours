@@ -4,44 +4,48 @@
     "header header account"
     "sidebar body body";
   grid-template-rows: auto 1fr;
-  grid-template-columns: 200px 1fr 200px;
+  grid-template-columns: 200px 1fr 150px;
   height: 400px;
   gap: 10px;
   border: 2px solid rgb(255, 136, 0);
 }
 
-.Header {
+.App h3{
+  color: rgb(255, 136, 0);
+}
+
+.header {
   grid-area: header;
   border: 2px solid blue;
   text-align: center;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   color: blue;
 }
 
-.Account {
+.account {
   grid-area: account;
   border: 2px solid green;
   text-align: center;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   color: green;
 }
 
-.Sidebar {
+.sidebar {
   grid-area: sidebar;
   border: 2px solid red;
   text-align: center;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   color: red
 }
 
-.Body {
+.body {
   grid-area: body;
   border: 2px solid magenta;
   text-align: center;
   padding: 10px;
-  margin: 10px;
+  margin: 5px;
   color: magenta;
 }
