@@ -1,0 +1,47 @@
+.App {
+  display: grid;
+  grid-template-areas:
+    "header header account"
+    "sidebar body body";
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 200px 1fr 200px;
+  height: 400px;
+  gap: 10px;
+  border: 2px solid rgb(255, 136, 0);
+}
+
+.Header {
+  grid-area: header;
+  border: 2px solid blue;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: blue;
+}
+
+.Account {
+  grid-area: account;
+  border: 2px solid green;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: green;
+}
+
+.Sidebar {
+  grid-area: sidebar;
+  border: 2px solid red;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: red
+}
+
+.Body {
+  grid-area: body;
+  border: 2px solid magenta;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: magenta;
+}
